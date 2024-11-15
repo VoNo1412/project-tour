@@ -8464,3 +8464,73 @@ img {
   width: 107px;
   height: 65px;
 }
+
+.navbar {
+  padding: 0;
+}
+
+.search-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.search-container h4 {
+  font-weight: bold;
+}
+
+.search-container input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.search-container select {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+}
+
+.search-container button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.pagination .btn {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+.pagination .btn:hover {
+  background-color: #ddd;
+}
+
+.pagination .btn.disabled,
+.pagination .btn[disabled] {
+  cursor: not-allowed;
+  color: #aaa;
+  background-color: #f5f5f5;
+}
+
+.pagination .current-page {
+  background-color: #e63946;
+  color: #fff;
+  border-color: #e63946;
+}
