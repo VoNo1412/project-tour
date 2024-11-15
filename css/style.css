@@ -8535,92 +8535,62 @@ img {
   border-color: #e63946;
 }
 
-/* Made with love by Mutiullah Samim*/
-
-@import url('https://fonts.googleapis.com/css?family=Numans');
-
-html,body{
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+.promo-banner {
+  background: url('path-to-banner-image.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.tour-info {
+  margin-top: 1rem;
+}
+.tour-info h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
 }
 
-.container{
-height: 100%;
-align-content: center;
+.container {
+  max-width: 1300px !important;
 }
 
-.card{
-height: 370px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+.tour-header {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
 }
-
-.social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #FFC312;
+.tour-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-
-.social_icon span:hover{
-color: white;
-cursor: pointer;
+.day-heading {
+  background-color: #e9ecef;
+  padding: 1rem;
+  font-weight: bold;
 }
-
-.card-header h3{
-color: white;
+.price-info {
+  font-size: 1.2rem;
 }
-
-.social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
+.section-title {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 2rem;
 }
-
-.input-group-prepend span{
-width: 50px;
-background-color: #FFC312;
-color: black;
-border:0 !important;
-}
-
-input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
-}
-
-.remember{
-color: white;
-}
-
-.remember input
-{
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
-}
-
-.login_btn{
-color: black;
-background-color: #FFC312;
-width: 100px;
-}
-
-.login_btn:hover{
-color: black;
-background-color: white;
-}
-
-.links{
-color: white;
-}
-
-.links a{
-margin-left: 4px;
+.list-group-item {
+  border: none;
 }
